@@ -1,0 +1,31 @@
+.text-left {
+    text-align: left !important;
+}
+.text-right {
+    text-align: right !important;
+}
+.text-center {
+    text-align: center !important;
+}
+
+.f-weight-1{
+	font-weight: 100;
+}
+.f-weight-2{
+	font-weight: 200;
+}
+.f-weight-3{
+	font-weight: 300;
+}
+.f-weight-4{
+	font-weight: 400;
+}
+.f-weight-5{
+	font-weight: 500;
+}
+.f-weight-6{
+	font-weight: 600;
+}
+.f-weight-7{
+	font-weight: 700;
+}

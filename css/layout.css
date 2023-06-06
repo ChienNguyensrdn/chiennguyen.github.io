@@ -1,0 +1,26 @@
+
+/*Margin*/
+.margin-top-15{
+    margin-top: 15px;
+}
+.margin-b-15{
+    margin-bottom: 15px;
+}
+/*End margin*/
+
+/*Padding*/
+.padding-tb-15{
+    padding: 15px 0;
+}
+/*End Padding*/
+/*background*/
+.background-white{
+    background-color: #ffffff;
+}
+
+/*end background*/
+/*border*/
+.border-radius-5{
+    border-radius: 5px;
+}
+/*end border*/

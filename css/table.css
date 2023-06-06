@@ -1,0 +1,77 @@
+/*Table*/
+table {
+  table-layout: fixed;
+  width: 200px;
+  font-size: 13px;
+}
+thead{
+	background-color: #f1f1f1;
+	height: 50px;
+}
+td {
+	overflow: hidden;
+	padding: 10px 0;
+	display: table-cell;
+    vertical-align: top;
+}
+td.check-col{
+	vertical-align: middle;
+}
+tr.active, tbody tr:hover{
+	background-color: #FFF5EA;
+}
+
+/*Table control*/
+.h-table .item-control{
+	font-size: 13px;
+    width: 95%;
+    height: 30px;
+}
+	.table-action{
+		text-align: center;
+		margin: 0 auto;
+	}
+		.table-action-control{
+			display: inline-block;
+		    width: 30px;
+		    height: 30px;
+		    vertical-align: middle;
+		    text-align: center;
+		    margin: 0 10px;
+		    border: 1px solid #D1D1D1;
+		    border-radius: 50%;
+		    position: relative;
+		    background-color: #ffffff;
+		    transition: ease-in-out 0.2s;
+		}
+		.table-action-control:hover{
+			cursor: pointer;
+			border-color:  var(--act-clr);
+		}
+			.table-action-control i{
+			    color: #D1D1D1;
+			    position: absolute;
+			    top: 50%;
+			    left: 50%;
+			    transform: translate(-50%,-50%);
+		    	transition: ease-in-out 0.2s;
+			}
+			.table-action-control:hover i{
+				cursor: pointer;
+				color: var(--act-clr);
+			}
+.table-add-btn{
+	position: absolute !important;
+    top: -65px;
+    margin: 0 auto !important;
+    right: 15px;
+    width: 80px !important;
+    padding: 3px 10px 1px !important;
+}
+.table-add-btn:hover{
+	cursor: pointer;
+}
+	.table-add-btn:hover span{
+		color: #ffffff;
+	}
+/*End Table*/

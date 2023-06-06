@@ -1,0 +1,74 @@
+/*Control*/
+.item-control{
+    border: 1px solid #D1D1D1;
+    border-radius: 5px;
+    outline: none;
+    width: 100%;
+    height: 44px;
+    font-size: 20px;
+    padding: 0 10px;
+    color: var(--df-clr);
+}
+.item-control.active,.item-control:focus,.item-control:hover,.select2-container .select2-selection--single:hover{
+    border: 1px solid var(--act-clr);
+}
+.select2-selection__rendered {
+    line-height: 44px !important;
+}
+.select2-container .select2-selection--single,.select2-selection__arrow {
+    height: 44px !important;
+}
+::-webkit-calendar-picker-indicator{
+    color: #E9E9E9 !important;
+}
+input[type=checkbox]{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    visibility: hidden;
+}
+input[type=checkbox]::after{
+    content: "";
+    width: 19px;
+    height: 19px;
+    border: 1px solid var(--df-clr);
+    top: 5px;
+    position: absolute;
+    border-radius: 3px;
+    visibility: visible;
+}
+    input[type=checkbox]:hover:after{
+        border-color: var(--act-clr);
+    }
+
+    input[type=checkbox]:checked:after{
+        color: #ffffff;
+        border-color: var(--act-clr);
+        background-color: var(--act-clr);
+        font-family: 'FontAwesome';
+        src: url('../font-awesome/fonts/fontawesome-webfont.eot?v=4.7.0');
+        content: "\f00c";
+        line-height: 16px;
+        font-size: 17px;
+    }
+
+.histaff-confirm-button{
+    text-align: center;
+    margin: 0 15px;
+    position: relative;
+    padding: 5px 0 4px;
+    width: 120px;
+    font-size: 21px;
+    border: 1px solid var(--act-clr);
+    border-radius: 25px;
+    color: var(--act-clr);
+    background-color: #ffffff;
+    transition: ease-in-out 0.2s;
+}
+.histaff-confirm-button:hover{
+    background-color: var(--act-clr);
+    border-color: var(--act-clr);
+    color: #ffffff;
+    cursor: pointer;
+}
+/*End control*/
