@@ -113,13 +113,17 @@ h1{
                         margin-right: 5px;
                         width: 20px;
                     }
+    .histaff-body .histaff-item-group-header{
+        position: relative;
+    }
     .histaff-body .histaff-item-group{
             padding: 10px 15px;
             margin-bottom: 30px;
     }
-        .histaff-item-group .histaff-item-group-header{
-            position: relative;
-        }
+       
+            .histaff-item-group .histaff-item-group-info{
+                padding: -10px 15px !important;
+            }
             .histaff-item-group .histaff-item-group-header h3{
                 font-style: normal;
                 font-weight: 700;
@@ -173,14 +177,14 @@ h1{
             }
             .histaff-avata-edu{
                 position: relative;
-                width: 120px;
-                height: 120px;
-                border-radius: 50%;
+                width: 100px;
+                height: 100px;
+                /* border-radius: 50%; */
                 background: #efefef00;
                 text-align: center;
                 margin: 0 auto;
                 overflow: hidden;
-                border: 2px solid #ff000024;
+                /* border: 2px solid #ff000024; */
                 background-position: center center;
                 background-size: cover;
             }
